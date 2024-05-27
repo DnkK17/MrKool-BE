@@ -23,7 +23,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-import src.main.java.com.swp.VinGiG.entity.Wallet;
 
 @Entity
 @Getter
@@ -33,7 +32,7 @@ import src.main.java.com.swp.VinGiG.entity.Wallet;
 @ToString
 @EqualsAndHashCode
 
-@Table(name = "Transction")
+@Table(name = "Transaction")
 public class Transaction implements Serializable{
 	/**
 	 * 
