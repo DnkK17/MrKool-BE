@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import entity.Area;
 import service.AreaService;
-
 @RestController
 public class AreaController {
 	@Autowired
